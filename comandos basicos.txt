@@ -17,6 +17,9 @@ este comando me mostrara todas las carpetas incluidas las ocultas
 4)GIT STATUS
 este comando lo que hace es verificar si el estado de dicho elemento tiene algun cambio.
 
+5) git status - s, con este comando lo que haremos es ver solamente los archivos que ya sabremos en que situacion estan, dado que git status devuelve mucha informacion 
+aveces inecesaria.
+
 <<<<<<<COMANDOS DE CONFIGURACION>>>>>>>>
 
 1)git config --global user.name "tuNombre" 
