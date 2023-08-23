@@ -20,6 +20,22 @@ este comando lo que hace es verificar si el estado de dicho elemento tiene algun
 5) git status - s, con este comando lo que haremos es ver solamente los archivos que ya sabremos en que situacion estan, dado que git status devuelve mucha informacion 
 aveces inecesaria.
 
+6) git diff , 
+con este comando lo que haremos es ver con mayor detalle los cambios que hicimos dentro del archivo, por ejemplo , txt que agregamos
+o borramos. (para salir de la pantalla que nos muestra es Q)
+
+7) git diff --staged , con este comando lo que nos mostrara es los archivos, que estna en staged
+
+8) git log, El comando git log se utiliza en Git para mostrar el historial de commits en un repositorio. Proporciona una lista detallada de los commits que se han realizado en el repositorio, incluyendo información como el autor, la fecha,
+ el mensaje de commit y un identificador único (hash) para cada commit.
+
+9)git log --oneline ,
+El comando git log --oneline se utiliza para mostrar el historial de commits en un formato más compacto y legible. Cuando ejecutas git log --oneline, obtendrás una lista de commits con un resumen conciso de cada commit en una sola línea.
+ Cada línea contendrá un identificador corto del commit (hash) y el mensaje de commit.
+
+10)git branch, con este comando lo que haremos es ver en que rama nos encontramos
+
+
 <<<<<<<COMANDOS DE CONFIGURACION>>>>>>>>
 
 1)git config --global user.name "tuNombre" 
@@ -72,6 +88,18 @@ I)git restore "nombreDelArchivo", con este comando tambien podremos recuperar un
 J)MV ,
 El comando mv en Git Bash (y en la mayoría de los sistemas Unix/Linux) se utiliza para mover o renombrar archivos y directorios.
  Puedes usar este comando para cambiar el nombre de un archivo o para moverlo a otra ubicación en tu sistema de archivos.
+
+k) git checkout -b "nombreDeRama",
+ lo que hacemos con este comando es crear una rama sobre la rama main, para trabajar independientemente.
+
+L)git cat "nombreDeArchivo", 
+ El comando cat es un comando utilizado en sistemas Unix y Unix-like (incluyendo Git Bash) para mostrar el contenido de archivos de texto en la terminal.
+ El nombre "cat" proviene de "concatenate", que es su función principal: concatenar y mostrar el contenido de uno o varios archivos.
+
+LL) git checkout "nombre de la rama", con este comando lo que hacemos es ir a la rama que deseemos.
+
+o) git merge "nombreDeLaRama" , con este comando lo que haremos es traer los cambion de la rama que deseemos a la rama main (es importante estar en la rama main).
+
 
 <<<<<<<COMANDOS DE GESTION DE PROYECTOS>>>>>>>>
 
