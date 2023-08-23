@@ -1,0 +1,79 @@
+etapa de git 
+anit,stage,commit,servic
+
+<<<<<<<COMANDOS DE VERIFICACION>>>>>>>>
+a) git --version
+con este comando lo que haremos es ver la version de git que tenemos instalada
+
+1)LS
+con este comando podremos ver un listado de las carpetas/directorios que hay en el lugar donde nos encontremos
+
+2)PWD 
+con este comando podremos ver enque disco o lugar nos encontramos
+
+3) LS -A 
+este comando me mostrara todas las carpetas incluidas las ocultas
+
+4)GIT STATUS
+este comando lo que hace es verificar si el estado de dicho elemento tiene algun cambio.
+
+<<<<<<<COMANDOS DE CONFIGURACION>>>>>>>>
+
+1)git config --global user.name "tuNombre" 
+con esta configuracion podremos colocar nuestro nombre
+
+2)git config --global user.email 
+con esta configuracion colocamos el email.
+
+3)git config --global core.editor "code --wait(wait es para que la terminal espere que se cierre el archivo de configuracion global)"
+
+4)git config --global -e
+con este comando vemo dicho archivo
+
+5) git config --global core.autocrlf true 
+configuracion para los saltos de lineas
+
+6) git config -h
+con este comando nos muestras un listado con las diferentes configuraciones
+
+<<<<<<<COMANDOS DE NAVEGACION EN ORDENADOR>>>>>>>>
+
+
+A) CD 
+con este comando lo que hacemos es buscar las o seleccionar una carpeta/directorio en especifico.
+ejemplo: cd documents
+y si el nombre de la carpeta con tiene espacios, podemos escribir el nombre con "" o con -_
+
+B) CD ..
+lo que hace este comando es salir del directorio o/carpeta y ir un paso atras
+
+C)MKDIR nombreDeCarpeta
+con este comando lo que haremos es crear una carpeta/directorio
+
+D)RMDIR
+El comando rmdir se utiliza en la línea de comandos para eliminar directorios (carpetas) vacías en sistemas
+
+E) CLEAR
+con este comando lo que haceremos es limpiar las consola
+
+f) RM "nombre del archivo", con este comando lo que haremos es borrar el archivo!(es sumamente importante que cuando eliminemos un archivo , agregemos esos cambios al repositorio para que tambien se vean impactados alli )
+
+G) git add "nombeDelArchivo" para agregar al repositorio local de git los elementos que quisiera!.
+tambien podremos agregar todos los elementos con GIT ADD . (pero suele ser mala practica).
+
+H)git restore --staged "nombreDeArchivo",
+con este comando cancelamos la accion de poner un archivo en la etapa de staged
+
+I)git restore "nombreDelArchivo", con este comando tambien podremos recuperar un archivo que eliminamos.
+
+J)MV ,
+El comando mv en Git Bash (y en la mayoría de los sistemas Unix/Linux) se utiliza para mover o renombrar archivos y directorios.
+ Puedes usar este comando para cambiar el nombre de un archivo o para moverlo a otra ubicación en tu sistema de archivos.
+
+<<<<<<<COMANDOS DE GESTION DE PROYECTOS>>>>>>>>
+
+1) GIT INIT
+una vez que estemos dentro de una carpeta que deseemos incorporarla o crear un repositorio de git local usamos este comando que lo que hara es que git tenga encuenta la carpeta
+
+2)GIT ADD .
+lo que hace este comando es agregar todos los elementos que esten dentro 
